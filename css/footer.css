@@ -1,0 +1,51 @@
+footer.container {
+    /* color: ghostwhite; */
+    /* background-color: rgb(246, 242, 242); */
+    /* border: 2px dotted green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer.container path{
+    fill: aliceblue;
+}
+
+footer div.contact{
+    display: flex;
+    /* border: 2px dotted rgb(128, 64, 0); */
+    justify-content: center;
+    align-items: center;
+    margin-right: 10em;
+}
+
+
+footer div.address img {
+    width: 40%;
+}
+
+
+footer div.quick-links{
+    margin-right: 2rem;
+}
+
+footer div.quick-links h3{
+    text-align: center;
+}
+
+
+footer div.link-location{
+    width: 20em;
+    position: relative;
+    right: 4rem;
+    display: flex;
+    /* border: 2px dotted rgb(128, 64, 0); */
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+}
+
+footer div.link-location div.location{
+   
+}
+

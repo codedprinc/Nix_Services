@@ -1,0 +1,88 @@
+main {
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+}
+
+section.hero-sect{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6em;
+    
+}
+
+div.hero-txt{
+    /* border: 1px solid red; */
+    font-size: var(--fs-x-large);
+}
+
+div.buttons {
+    display: flex;
+
+}
+
+button#cta-2{
+    margin-left: 6em;
+}
+
+div.hero-img {
+    width: 20%;
+    /* border: 1px solid rgb(68, 255, 0); */
+    margin-right: 8em;
+}
+
+
+
+/* Hero section */
+
+/* Services section */
+
+section.services h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+ul.cards {
+    margin: 5em 5em;
+    padding: 0%;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    margin-bottom: 2em;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 400px;
+    height: 400px;
+    transition: 0.3s;
+}
+
+.card-container h3{
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+.card-container button{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div.row1{
+    display: flex;
+    gap: 20px;
+}
+div.row2{
+    display: flex;
+    gap: 20px;
+}
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    scale: 1.1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+  
+  /* Add some padding inside the card container */
+.card-container {
+    padding: 2px 16px;
+}
